@@ -1,3 +1,5 @@
+// THIS IS A TEST
+
 import { path7za } from "7zip-bin"
 import BluebirdPromise from "bluebird-lst"
 import { Arch, asArray, AsyncTaskManager, getPlatformIconFileName, InvalidConfigurationError, log, spawnAndWrite, use, exec } from "builder-util"
