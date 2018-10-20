@@ -297,10 +297,10 @@ export class NsisTarget extends Target {
     const customScriptPath = await packager.getResource(this.options.script, "installer.nsi")
     const script = await readFile(customScriptPath || path.join(nsisTemplatesDir, "installer.nsi"), "utf8")
 
-    if (customScriptPath != null) {
-      log.info({reason: "custom NSIS script is used"}, "uninstaller is not signed by electron-builder")
-      return script
-    }
+    // if (customScriptPath != null) {
+    //   log.info({reason: "custom NSIS script is used"}, "uninstaller is not signed by electron-builder")
+    //   return script
+    // }
 
     // https://github.com/electron-userland/electron-builder/issues/2103
     // it is more safe and reliable to write uninstaller to our out dir
