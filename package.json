@@ -120,6 +120,9 @@
     "whitespace": "^2.1.0",
     "worker-farm": "^1.6.0"
   },
+  "resolutions": {
+    "handlebars": "^4.7.7"
+  },
   "jest": {
     "testEnvironment": "node",
     "roots": [
