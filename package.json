@@ -56,7 +56,7 @@
     "pako": "^1.0.10",
     "parse-color": "^1.0.0",
     "plist": "^3.0.1",
-    "read-config-file": "3.2.2",
+    "read-config-file": "5.0.0",
     "sanitize-filename": "^1.6.1",
     "sax": "^1.2.4",
     "semver": "^6.0.0",
